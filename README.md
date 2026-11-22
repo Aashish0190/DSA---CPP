@@ -1,104 +1,60 @@
-# 📘 DSA in C++ (Basic to Advanced)
+# Data Structures & Algorithms in C++ 🧠
 
-This repository contains **Data Structures and Algorithms (DSA)** problems solved in **C++**, starting from **basic** concepts and gradually moving to **advanced interview-level problems**.
+A structured repository documenting my journey of learning and practicing Data Structures and Algorithms in C++, with a focus on problem-solving and software engineering interviews.
 
-The goal of this repository is to build **strong problem-solving skills**, maintain **clean GitHub commits**, and prepare for **Software Development Engineer (SDE)** roles.
+## Goals
 
----
+- Build strong problem-solving fundamentals.
+- Understand the reasoning behind each solution.
+- Practice writing readable, maintainable C++.
+- Track progress consistently over time.
 
-## 👨‍💻 Author
+## Topics
 
-**Ashish Kumar**
-B.Tech in Computer Science
-Aspiring SDE / Full Stack Developer
+### Currently documented
+- Arrays
+  - Largest and smallest element
+  - Array reversal
+  - Array rotation
+  - Kadane's algorithm
+  - Subarray problems
 
----
+More topics will be added as they are studied and solved.
 
-## 🧠 What this repository focuses on
+## Repository Structure
 
-* Clear and beginner-friendly solutions
-* Step-by-step progression (Easy → Medium → Hard)
-* Interview-oriented problems
-* Clean code with comments
-* One problem per commit (best Git practice)
+Solutions are organized by topic. Each source file is intended to represent an individual problem or concept.
 
----
+## Run a Solution
 
-
-
-## 📌 Topics Covered
-
-### ✅ Arrays
-
-* Largest & Smallest element
-* Reverse an array
-* Rotation of array
-* Kadane’s Algorithm
-* Subarray problems
-
-
-
-## 🛠️ Language & Tools Used
-
-* **Language:** C++
-* **Compiler:** GCC (g++)
-* **Version Control:** Git
-* **Platform:** GitHub
-* **OS:** Windows
-
----
-
-## 🚀 How to Use This Repository
-
-1. Clone the repository:
+Make sure a C++ compiler such as GCC is installed.
 
 ```bash
 git clone https://github.com/Aashish0190/DSA---CPP.git
-```
-
-2. Navigate to the folder:
-
-```bash
 cd DSA---CPP
+g++ path/to/solution.cpp -std=c++17 -o solution
+./solution
 ```
 
-3. Compile and run any C++ file:
+On Windows, run the generated executable with:
 
-```bash
-g++ filename.cpp -o output
-./output
+```powershell
+.\solution.exe
 ```
 
----
+## My Approach
 
-## 🎯 Why this repository?
+For each problem, I aim to document:
+1. The problem statement or objective.
+2. The approach and reasoning.
+3. Time and space complexity where applicable.
+4. A clean C++ implementation.
 
-* To demonstrate **DSA consistency**
-* To showcase **Git & GitHub workflow**
-* To prepare for **technical interviews**
-* To build a strong **developer profile**
+## Progress
 
----
+This repository is actively being improved. Topic coverage reflects the solutions currently committed, not a claim that every listed algorithm is complete.
 
-## 📈 Progress Tracking
+## Connect
 
-* Problems are added **one by one**
-* Each problem has a **separate commit**
-* Difficulty increases gradually
-
----
-
-## ⭐ If you find this useful
-
-* Give this repository a ⭐
-* Fork it and practice yourself
-
----
-
-### 📬 Connect
-
-GitHub: [https://github.com/Aashish0190](https://github.com/Aashish0190)
-
----
-
-**Happy Coding! 🚀**
+**Ashish Kumar**  
+[GitHub](https://github.com/Aashish0190) · [LinkedIn](https://www.linkedin.com/in/ashish-kushwah/)
