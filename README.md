@@ -1,60 +1,67 @@
-# Data Structures & Algorithms in C++ 🧠
+# Data Structures & Algorithms in C++
 
-A structured repository documenting my journey of learning and practicing Data Structures and Algorithms in C++, with a focus on problem-solving and software engineering interviews.
+A topic-organized collection of C++ solutions as I practice problem-solving for software engineering interviews.
 
-## Goals
+## Current coverage
 
-- Build strong problem-solving fundamentals.
-- Understand the reasoning behind each solution.
-- Practice writing readable, maintainable C++.
-- Track progress consistently over time.
+### Arrays
 
-## Topics
+The `Array/` directory currently includes practice problems covering:
 
-### Currently documented
-- Arrays
-  - Largest and smallest element
-  - Array reversal
-  - Array rotation
-  - Kadane's algorithm
-  - Subarray problems
+- Array traversal, searching and basic calculations
+- Largest, smallest and second-largest elements
+- Reversing and rotating arrays
+- Sorting: selection sort, insertion sort and sorting 0s, 1s and 2s
+- Duplicate, missing, repeating and frequency problems
+- Union and intersection
+- Leaders and majority element
+- Subarray sums and longest-subarray patterns
+- Maximum subarray, container with most water and trapping rain water
+- Counting inversions
 
-More topics will be added as they are studied and solved.
+The repository also contains standalone array-related practice files in the root directory. Topics will be added as they are practiced.
 
-## Repository Structure
+## Repository structure
 
-Solutions are organized by topic. Each source file is intended to represent an individual problem or concept.
+```text
+DSA---CPP/
+├── Array/
+│   ├── CheckSortedArr.cpp
+│   ├── CountInversion.cpp
+│   ├── Largestsmallest.cpp
+│   └── ...
+├── CheckSorted.cpp
+├── SecondLargest.cpp
+└── README.md
+```
 
-## Run a Solution
+## Compile and run
 
-Make sure a C++ compiler such as GCC is installed.
+Install a C++ compiler such as GCC, then compile an individual solution:
 
 ```bash
-git clone https://github.com/Aashish0190/DSA---CPP.git
-cd DSA---CPP
-g++ path/to/solution.cpp -std=c++17 -o solution
+g++ Array/CheckSortedArr.cpp -std=c++17 -o solution
 ./solution
 ```
 
-On Windows, run the generated executable with:
+On Windows PowerShell:
 
 ```powershell
+g++ Array/CheckSortedArr.cpp -std=c++17 -o solution.exe
 .\solution.exe
 ```
 
-## My Approach
+## Problem-solving approach
 
-For each problem, I aim to document:
-1. The problem statement or objective.
-2. The approach and reasoning.
-3. Time and space complexity where applicable.
-4. A clean C++ implementation.
+For each solution, the goal is to understand:
 
-## Progress
+1. The problem and its edge cases
+2. The reasoning behind the approach
+3. Time and space complexity
+4. A clear C++ implementation
 
-This repository is actively being improved. Topic coverage reflects the solutions currently committed, not a claim that every listed algorithm is complete.
+This is an evolving practice repository. The listed topics reflect files currently present; explanations, complexity notes and additional test cases will be improved over time.
 
-## Connect
+## Author
 
-**Ashish Kumar**  
-[GitHub](https://github.com/Aashish0190) · [LinkedIn](https://www.linkedin.com/in/ashish-kushwah/)
+**Ashish Kumar** · [GitHub](https://github.com/Aashish0190) · [LinkedIn](https://www.linkedin.com/in/ashish-kushwah/)
